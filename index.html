@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile - Materialize</title>
+</head>
+
+<body id="top-page" class="scrollspy">
+    <div class="navbar-fixed">
+        <nav class="green accent-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#top-page" class="brand-logo">Company Logo</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Header Image -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/bg-1.jpg">
+                <div class="caption left-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/bg-2.jpg">
+                <div class="caption right-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/bg-3.jpg">
+                <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- About Us -->
+    <section id="about" class="about green accent-4 scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="center light white-text">About Us</h3>
+                <div class="col m12 s12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorum sequi illo perferendisex.
+                        Eum placeat dolor recusandae distinctio, saepe consequatur ipsam nihil accusamus doloremest,
+                        veritatis assumenda. Earum, ad!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product -->
+    <section id="product" class="product grey lighten-2 scrollspy">
+        <div class="container">
+            <div class="row">
+                <h3 class="center light black-text">Products</h3>
+                <div class="col m4 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/product-1.jpg" class="responsive-img">
+                            <span class="card-title">Realme 3</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Your Product Spesification.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/product-2.jpg" class="responsive-img">
+                            <span class="card-title">Samsung M20</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Your Product Spesification.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/product-3.jpg" class="responsive-img">
+                            <span class="card-title">Vivo Y91</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Your Product Spesification.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact grey lighten-3 scrollspy">
+        <div class="container">
+            <h3 class="center light black-text">Contact Us</h3>
+            <div class="row card-panel">
+                <div class="col m12 s12">
+                    <form class="">
+                        <div class="input-field col s12">
+                            <input placeholder="Abdullah" id="name" name="name" type="text" class="validate">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input placeholder="abdullah@gmail.com" id="email" name="email" type="email"
+                                class="validate">
+                            <label for="email">Your Email Address</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <button type="submit" class="btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar Mobile -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <!-- Footer -->
+    <div class="footer green accent-4 white-text">
+        <div class="container">
+            <div class="row">
+                <h3>Copyright <span>Company Profile</span> 2019 | by Risman</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- My JS -->
+    <script type="text/javascript">
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+            indicators: false,
+            interval: 4000,
+            height: 500
+        });
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+            scrollOffset: 60,
+            activeClass: 'active'
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* Navbar CSS */
+.navbar-fixed {
+    max-width: 100%;
+}
+.navbar-fixed .brand-logo {
+    font-family: 'Viga';
+}
+
+/* Slider CSS */
+
+.slider h3, .slider h5 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7)
+}
+
+/* About CSS */
+.about {
+    padding: 20px 0px;
+}
+.about p {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center
+}
+
+/* Product CSS */
+.product{
+    padding: 20px 0px;
+}
+.product .card {
+    padding: 10px 0px 0px;
+}
+.product .card span {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Contact US CSS */
+.contact {
+    padding: 20px 0px;
+}
+.contact h3 {
+    margin-bottom: 50px;
+}
+
+/* Footer CSS */
+.footer{
+    padding:5px 0px 2px;
+}
+.footer h3 {
+    font-size: 16px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 200;
+    text-align: center;
+}
+.footer h3 span {
+    font-weight: bold;
+}
